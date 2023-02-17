@@ -1,0 +1,67 @@
+:root {
+    --main-font: Georgia,
+        'Times New Roman',
+        serif;
+    --body-font: Arial,
+        Helvetica,
+        sans-serif
+}
+
+body {
+    background-color: #ffffff;
+    color: #666666;
+    font-family: var(--body-font);
+}
+
+header {
+    background-color: #00B386;
+    color: #ffffff;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: var(--main-font)
+}
+
+nav {
+    background-color: #70DBD8;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #00664D;
+    font-family: var(--main-font)
+}
+
+h3 {
+    color: #000033;
+    font-family: var(--main-font)
+}
+
+dt {
+    color: #00664D;
+}
+
+.barn {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+
+ul {
+    list-style-image: url(marker.gif);
+}
+
+#contact {
+    font-size: 90%;
+}
+
+footer {
+    font-size: 100%;
+    font-style: italic;
+    font-family: var(--main-font);
+    text-align: center;
+}
