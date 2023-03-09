@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
-    }
-    body {
+}
+
+body {
     background-color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    #wrapper {
+}
+
+#wrapper {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -16,117 +17,122 @@
     max-width: 1000px;
     box-shadow: 4px 4px 4px #133926;
     border: 1.5px solid #003300;
-    }
-    
-    header {
+}
+
+
+
+
+header {
     background-color: #00B386;
     color: #FFFFFF;
     text-align: center;
     height: 175px;
     padding-top: 30px;
-    padding-left: 3em;
-    }
-    
-    nav {
+    padding-left: 3em
+}
+
+nav {
     font-weight: bold;
     font-size: 120%;
     padding: 1.5em;
     float: left;
     width: 160px;
-    }
-    
-    nav a {
+}
+
+nav a {
     text-decoration: none;
-    }
-    
-    nav a:link {
+}
+
+nav a:link {
     color: #003300;
-    }
-    
-    nav a:visited {
+}
+
+nav a:visited {
     color: #7A7A52;
-    }
-    
-    nav a:hover {
+}
+
+nav a:hover {
     color: #FFFFFF;
-    }
-    
-    nav ul {
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding-left: 0;
     font-size: 1.2em;
-    }
-    
-    main {
+}
+
+main {
     background-color: #FFFFFF;
-    padding: 1px 2px 20px 30px;
+    padding: 1px 2-px 20px 30px;
     margin-left: 190px;
     display: block;
-    }
-    
-    h1 {
+}
+
+h1 {
     margin-bottom: 0;
     margin-top: 0;
     font-family: Georgia, "times New Roman", serif;
     letter-spacing: 0.25em;
-    font-size: 3em;
-    }
-    
-    h2 {
+    font-size: 3em
+}
+
+
+h2 {
     color: #00664D;
     text-shadow: 1px 1px #CCCCCC;
     font-family: Georgia, "times New Roman", serif;
-    }
-    
-    h3 {
+}
+
+h3 {
     font-family: Georgia, "times New Roman", serif;
-    }
-    
-    dt {
+}
+
+
+dt {
     color: #00664D;
-    }
-    
-    .barn {
+}
+
+.barn {
     color: #70DBDB;
-    }
-    
-    main ul {
+}
+
+main ul {
     list-style-image: url(marker.gif);
-    }
-    
-    #contact {
+}
+
+#contact {
     font-size: 90%;
-    }
-    
-    footer {
+}
+
+footer {
     font-size: 75%;
-    font-style: italic;
+    font-size: italic;
     font-family: Georgia, "Times New Roman", serif;
     text-align: center;
     padding: 15px;
     background-color: #FFFFFF;
-    }
-    
-    #heroHome {
+}
+
+#heroHome {
     background-image: url(sunsetHorse.png);
     height: 300px;
     margin-left: 190px;
     background-repeat: no-repeat;
-    }
-    
-    #heroBoard {
+}
+
+#heroBoard {
     background-image: url(fenceline.png);
     height: 300px;
     margin-left: 190px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    }
-    
-    #heroTraining {
+}
+
+#heroTraining {
     background-image: url(BayBella.png);
     height: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-left: 190px;
-    }
+}
