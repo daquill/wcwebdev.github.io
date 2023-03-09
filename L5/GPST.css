@@ -98,7 +98,7 @@ dt {
 }
 
 main ul {
-    list-style-image: url(marker.gif);
+    list-style-image: url(img/marker.gif);
 }
 
 #contact {
@@ -115,14 +115,14 @@ footer {
 }
 
 #heroHome {
-    background-image: url(sunsetHorse.png);
+    background-image: url(img/sunsetHorse.png);
     height: 300px;
     margin-left: 190px;
     background-repeat: no-repeat;
 }
 
 #heroBoard {
-    background-image: url(fenceline.png);
+    background-image: url(img/fenceline.png);
     height: 300px;
     margin-left: 190px;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ footer {
 }
 
 #heroTraining {
-    background-image: url(BayBella.png);
+    background-image: url(img/BayBella.png);
     height: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
