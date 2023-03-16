@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(cool-background.png);
+    background-size: 100%;
+}
+
+#wrapper {
+    width: 100%;
+    /* background-color: #333; */
+}
+
+header {
+    background: none;
+    color: #FFFFFF;
+    text-align: center;
+    height: 25px;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    top: 85px;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+.login-register a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    transition: background-color 0.3s ease;
+}
+
+.login-register a:hover {
+    background-color: #555;
+}
+
+.calendar {
+    float: left;
+    width: 20%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-right: 20px;
+  }
+  
+  .calendar caption {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .calendar th,
+  .calendar td {
+    padding: 2px;
+    text-align: center;
+  }
+  
+  .calendar td[title] {
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .calendar td[title]:hover {
+    background-color: #ddd;
+  }
+  
+  .calendar td.active {
+    background-color: #006699;
+    color: #fff;
+  }
+  
+  .calendar td.active:hover {
+    background-color: #005588;
+  }
+  
+  .calendar .event {
+    background-color: #70DBDB;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .calendar .event:hover {
+    max-width: 200px;
+    white-space: normal;
+  }
+
+  /* General styles */
+  table {
+    border-collapse: collapse;
+  }
+  
+  table.calendar {
+    width: 30%;
+    margin-right: 20px;
+    float: left;
+  }
+  
+  table.calendar caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  table.calendar th, table.calendar td {
+    border: 1px solid #ccc;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  table.calendar td:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
+  
+  table.calendar .event {
+    display: none;
+    position: absolute;
+    padding: 2px;
+    border: 1px solid #ccc;
+    background-color: lightblue;
+  }
+  .blogs {
+    position: relative;
+    float: right;
+    width: 65%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 600px;
+    right: 150px;
+  }
+  
+  
+  .blogs h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .blogs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .blogs li {
+    margin-bottom: 10px;
+  }
+  
+  .blogs a {
+    font-weight: bold;
+    color: #202527;
+  }
+  
+  .blogs p {
+    margin: 0;
+    font-size: 14px;
+    color: #d61313;
+  }
+  .blogs li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
